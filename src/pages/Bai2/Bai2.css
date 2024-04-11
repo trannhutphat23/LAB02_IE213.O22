@@ -1,0 +1,104 @@
+.wrapper-bai2 {
+    background-color: #F9FAFC;
+    min-height: 100vh;
+    padding-top: 40px;
+}
+.title-bai2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 40px;
+}
+.underline {
+    height: 5px;
+    width: 10%;
+    background-color: #10B982;
+    margin: 0 auto;
+}
+.tourCard {
+    margin: 20px;
+    position: relative;
+    background-color: white;
+    width: 352px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.imgBai2 {
+    width: 352px;
+    height: 320px;
+}
+.priceTour {
+    color: white;
+    background-color: #10B982;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 3px 7px 3px 7px;
+}
+.nameTour {
+    font-size: 20px;
+    margin-top: 20px;
+    height: 30px;
+}
+.listTour {
+    margin-top: 10px;
+    display: grid;
+    padding: 0 70px 0 70px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: flex-start;
+}
+.infoDetailTour {
+    font-size: 17px;
+    font-weight: 300px;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+.btnShow {
+    color: #10B982;
+    border: 0px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: white;
+    margin-top: 3px;
+    float: left;
+}
+.contentTour {
+    color: grey;
+    font-size: 17px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.deleteBtn {
+    color: #10B982;
+    background-color: white;
+    border: 1px solid #10B982;
+    padding: 5px 0px 5px 0px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 90%;
+    cursor: pointer;
+    font-size: 17px;
+}
+.deleteBtn:hover {
+    background-color: #10B982;
+    color: white;
+}
+.emptyScreen {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 40px;
+}
+.refreshBtn {
+    color: white;
+    background-color: #10B982;
+    border: 1px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

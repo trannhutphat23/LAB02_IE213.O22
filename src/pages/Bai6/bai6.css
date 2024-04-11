@@ -1,0 +1,65 @@
+.wrapper-bai6 {
+    background-color: #F9FAFC;
+    min-height: 100vh;
+    padding: 40px 130px 0px 50px;
+}
+.containerBai6 {
+    display: flex;
+    justify-content: space-between;
+}
+.vertical-lineWhite {
+    border-left: 1px solid white;
+    height: 100%;
+}
+.vertical-lineClick {
+    border-left: 2px solid #10B982;
+    height: 20px;
+}
+.optionTab {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.colorTextChange {
+    color: #10B982;
+}
+.sideBar {
+    margin-right: 70px;
+}
+.titleBai6 {
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.tagCompany {
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: #CBD5E1;
+    max-width: max-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+.date {
+    color: grey;
+}
+.dutiesSection {
+    padding: 10px 0px 10px 0px;
+    margin-top: 20px;
+}
+.duty {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 27px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.iconAngle {
+    width: 20px;
+    height: 20px;
+    color: #10B982;
+    margin-right: 20px;
+}

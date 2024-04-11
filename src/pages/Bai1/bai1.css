@@ -1,0 +1,49 @@
+.wrapper-bai1 {
+    background-color: #FAE8FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.birthday_card {
+    background-color: white;
+    padding: 25px;
+    width: 40%;
+}
+.title-bai1 {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.card_list {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.name {
+    font-weight: 500;
+    font-size: 25px;
+}
+.infoList {
+    display: flex;
+    flex-direction: column;
+}
+.button-bai1 {
+    background-color: #D946EF;
+    padding: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.button-bai1:hover {
+    background-color: #A21CAF;
+}
+.imgBai1{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
